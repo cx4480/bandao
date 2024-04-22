@@ -1,0 +1,2 @@
+build/Task.o: HARDWARE/TASK/Task.c HARDWARE/TASK/Task.h
+HARDWARE/TASK/Task.h:

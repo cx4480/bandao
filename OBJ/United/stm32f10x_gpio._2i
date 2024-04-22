@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CORE -I ..\STM32F10x_FWLib\inc -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\HARDWARE -I ..\HARDWARE\PWM -I ..\HARDWARE\TIMER -I ..\HARDWARE\GPIO -I ..\HARDWARE\SPI -I ..\HARDWARE\EXTI -I ..\HARDWARE\MCUControl -I ..\HARDWARE\DS24B33 -I ..\HARDWARE\DS28E01 -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\ADC
+-I C:\Keil_v5\ARM\RV31\INC
+-I C:\Keil_v5\ARM\CMSIS\Include
+-I C:\Keil_v5\ARM\Inc\ST\STM32F10x
+-D__UVISION_VERSION="520" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DIAP_ENABLE
+-o ..\obj\united\stm32f10x_gpio.o --omf_browse ..\obj\united\stm32f10x_gpio.crf --depend ..\obj\united\stm32f10x_gpio.d --feedback "..\OBJ\United\United_IAP.fed" "..\STM32F10x_FWLib\src\stm32f10x_gpio.c"

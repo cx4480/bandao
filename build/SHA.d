@@ -1,0 +1,1 @@
+build/SHA.o: HARDWARE/DS28E01/SHA.c

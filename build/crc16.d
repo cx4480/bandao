@@ -1,0 +1,2 @@
+build/crc16.o: HARDWARE/CRC16/crc16.c HARDWARE/CRC16/crc16.h
+HARDWARE/CRC16/crc16.h:
